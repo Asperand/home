@@ -1,0 +1,16 @@
+@font-face {font-family:mod;src:url('../../misc/font/modernpics.otf');}
+@font-face {font-family:rar;src:url('../../misc/font/roundedarial.ttf');}
+@font-face {font-family:bahn;src:url('../../misc/font/bahnschrift.ttf');}
+@font-face {font-family:roboto;src:url('../../misc/font/roboto.ttf');}
+@font-face {font-family:cavier;src:url('../../misc/font/CaviarDreams_Bold.ttf');}
+@font-face {font-family:cool;src:url('../../misc/font/Coolvetica_rg.ttf');}
+@font-face {font-family:ast;src:url('../../misc/font/Assistant-Regular.otf');}
+@font-face {font-family:beba;src:url('../../misc/font/BebasNeue-Regular.ttf');}
+@font-face {font-family:baloo;src:url('../../misc/font/Baloo-Regular.ttf');}
+@font-face {font-family:rarcon;src:url('../../misc/font/ArconRoundedRegular.otf');}
+@font-face {font-family:arcon;src:url('../../misc/font/Arcon-Regular.otf');}
+* {box-sizing:border-box;font-family:bahn;background-repeat:no-repeat;font-size:14px;margin:0px;transition:all 0.5s;}
+body {width:100%;background-color:rgba(255,255,255,1);}
+a {text-decoration:none;}
+div {display:block;width:100%;}
+*[tabindex="2"] {cursor:pointer;}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="SEO decription">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="../misc/script/main.js"></script>
+<script src="../misc/script/account.js"></script>
+<link rel="stylesheet" href="../misc/style/main.css">
+<link rel="stylesheet" href="../misc/style/account.css">
+<link rel="stylesheet" href="../misc/style/genericons.css">
+<link rel="favicon" href="../favicon.ico">
+<link rel="shortcut icon" href="../favicon.ico">
+<title>Access Your Account</title>
+</head>
+<body>
+<div id="page">
+<div class="" id="logo" tabindex="2" onclick="location='../';"><font class="symb">@</font><font class="loxt">&nbsp;Asperand &nbsp;</font></div>
+<div id="forms">
+<div id="signin">
+<div class="head">Account Sign In</div>
+<div class="field"><input type="login" name="login" id="login" placeholder="Email / Phone Number / ID Number" autocomplete="off"></div>
+<div class="field"><input type="password" name="password" id="password" placeholder="Password" onblur="this.type='password';" min="8" onchange="validate"><font class="eye" onfocus="this.previousSibling.focus();this.previousSibling.type='text';" tabindex="2">E</font></div>
+<div class="button"><button id="access">Sign In</button></div>
+<div class="note snd">Forgot password? Enter your phone number or email address or ID number above and <a href="#" onclick="">click here</a></div>
+<div class="note">Don't have an account? To sign up or create an account <a href="#" onclick="document.getElementById('forms').style.left='-100%'; swapTitle('Create an Account');">click here</a></div>
+</div>
+<div id="signup">
+<div class="head">Account Sign Up</div>
+<div class="field"><input type="name" name="fullname" id="fullname" placeholder="Full Name" autocomplete="on"></div>
+<div class="field"><input type="id" name="idnumber" id="idnumber" placeholder="ID Number" autocomplete="on"></div>
+<div class="field"><input type="tel" name="phone" id="phone" placeholder="Phone Number" autocomplete="on"></div>
+<div class="field"><input type="email" name="email" id="email" placeholder="Email Address" autocomplete="on"></div>
+<div class="field"><input type="text" name="password" id="newpassword" placeholder="Create Password" onblur="this.type='password';" onfocus="this.type='text';"></div>
+<div class="button"><button id="register">Sign Up</button></div>
+<div class="note reg">Already have an account? To login or access your account <a href="#" onclick="document.getElementById('forms').style.left='0%'; swapTitle('Access Your Account');">click here</a></div>
+</div>
+</div>
+</div>
+</body>
+</html>
